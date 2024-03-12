@@ -8,7 +8,6 @@ import Home from "./pages/Home";
 import PageNotFound from "./pages/PageNotFound";
 import Product from "./pages/Product";
 import ProductDetails from "./pages/ProductDetails";
-import Wishlist from './pages/Wishlist';
 import Cart from './pages/Cart';
 import Login from './pages/Login';
 import Register from './pages/Register';
@@ -16,6 +15,7 @@ import Contact from "./pages/Contact";
 import Category from "./pages/Category";
 import Checkout from './pages/Checkout';
 import NewsSection from "./components/NewsSection";
+import Wishlist from "./pages/Wishlist";
 
 function App() {
   return (
@@ -31,6 +31,7 @@ function App() {
         <Route path="/cart" element={<Cart/>} />
         <Route path="/chekout" element={<Checkout/>} />
         <Route path="/wishlist" element={<Wishlist/>} />
+
         <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<Register/>} />
         <Route path="*" element={<PageNotFound />} />
