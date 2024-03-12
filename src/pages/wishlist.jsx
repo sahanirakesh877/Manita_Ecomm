@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-const wishlist = () => {
+const Wishlist = () => {
   const handleAddToCart = (productId) => {
     // Logic to add product to cart
     console.log(`Product with ID ${productId} added to cart.`);
@@ -76,7 +76,7 @@ const wishlist = () => {
   )
 }
 
-export default wishlist
+export default Wishlist
 
 
 

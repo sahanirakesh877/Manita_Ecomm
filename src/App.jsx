@@ -17,6 +17,7 @@ import Checkout from './pages/Checkout';
 import NewsSection from "./components/NewsSection";
 import Wishlist from "./pages/Wishlist";
 
+
 function App() {
   return (
     <>
@@ -29,8 +30,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/category" element={<Category />} />
         <Route path="/cart" element={<Cart/>} />
-        <Route path="/chekout" element={<Checkout/>} />
         <Route path="/wishlist" element={<Wishlist/>} />
+        <Route path="/chekout" element={<Checkout/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<Register/>} />
         <Route path="*" element={<PageNotFound />} />
