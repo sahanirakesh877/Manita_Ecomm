@@ -15,7 +15,6 @@ import Contact from "./pages/Contact";
 import Category from "./pages/Category";
 import Checkout from './pages/Checkout';
 import NewsSection from "./components/NewsSection";
-import Wishlist from "./pages/Wishlist";
 
 
 function App() {
@@ -30,7 +29,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/category" element={<Category />} />
         <Route path="/cart" element={<Cart/>} />
-        <Route path="/wishlist" element={<Wishlist/>} />
         <Route path="/chekout" element={<Checkout/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<Register/>} />
