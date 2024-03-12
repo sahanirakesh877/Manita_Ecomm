@@ -31,7 +31,6 @@ function App() {
         <Route path="/cart" element={<Cart/>} />
         <Route path="/chekout" element={<Checkout/>} />
         <Route path="/wishlist" element={<Wishlist/>} />
-
         <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<Register/>} />
         <Route path="*" element={<PageNotFound />} />
